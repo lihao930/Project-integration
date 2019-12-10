@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.home{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url('../data/imgs/bg.jpg');
+    background-size: 100% 100%;
+    .tou{
+        height: 50px;
+        margin-top: 50px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 900;
+    }
+    .ding{
+        width: 200px;
+        height: 200px;
+        background-image: url('../data/imgs/title.png');
+        background-size: 100% 100%;
+        margin: auto;
+    }
+    .btn{
+        margin-top: 50px;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        span{
+            padding: 8px 30px;
+            border: 1px solid blue;
+            color: white;
+            background: #666;
+        }
+    }
+    .shu{
+        margin-top: 100px;
+        div{
+            margin-left: 100px;
+            p{
+                font-size: 18px;
+            }
+            input{
+                width: 70%;
+                height: 40px;
+                margin: 10px 0;
+                border-radius: 10px;
+                border: 1px solid;
+            }
+        }
+    }
+    .box{
+        width: 80%;
+        margin: 0 10%;
+        p{
+            width: 100%;
+            height: 100px;
+            line-height: 100px;
+            margin-top: 50px;
+            font-size: 18px;
+            font-weight: 900;
+            border-bottom: 2px solid orangered;
+        }
+        span{
+            display: block;
+            display: flex;
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            span{
+                width: 20px;
+                height: 20px;
+                background: #ccc;
+                border-radius: 50%;
+                margin-top: 15px;
+                margin-right: 20px;
+                border: 1px solid #666;
+            }
+            .active{
+                background: red;
+            }
+            .blue{
+                background: chartreuse;
+            }
+        }
+    }
+}
